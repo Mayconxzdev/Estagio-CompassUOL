@@ -1,0 +1,23 @@
+import csv
+
+def process_grades(file_path):
+    with open(file_path, 'r') as file:
+        reader = csv.reader(file)
+        students = []
+        
+        for row in reader:
+            name = row[0]
+            grades = list(map(int, row[1:]))
+            top_3_grades = sorted(grades, reverse=True)[:3]
+            average_top_3 = round(sum(top_3_grades) / 3, 2)
+            students.append((name, top_3_grades, average_top_3))
+        
+        
+        students_sorted = sorted(students, key=lambda x: x[0])
+        
+       
+        for student in students_sorted:
+            print(f"Nome: {student[0]} Notas: {student[1]} Média: {student[2]}")
+
+
+process_grades('estudantes.csv')

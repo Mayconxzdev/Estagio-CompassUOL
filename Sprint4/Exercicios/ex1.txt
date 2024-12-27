@@ -1,0 +1,17 @@
+with open('number.txt', 'r') as file:
+    numeros = [int(line.strip()) for line in file]
+
+
+numeros_inteiros = list(map(int, numeros))
+
+
+numeros_pares = filter(lambda x: x % 2 == 0, numeros_inteiros)
+
+
+maiores_pares = sorted(numeros_pares, reverse=True)[:5]
+
+
+print(maiores_pares)
+
+
+print(sum(maiores_pares))
