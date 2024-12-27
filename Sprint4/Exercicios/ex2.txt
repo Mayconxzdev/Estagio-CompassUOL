@@ -1,0 +1,12 @@
+def conta_vogais(s):
+ 
+    vogais = 'aeiouAEIOU'
+    
+
+    vogais_filtradas = filter(lambda x: x in vogais, s)
+    
+
+    return len(list(vogais_filtradas))
+
+
+print(conta_vogais("Exemplo de string com Vogais!"))  
