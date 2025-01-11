@@ -70,8 +70,6 @@ Durante o desafio, as seguintes ferramentas foram essenciais:
 
 - **AWS S3**: Para armazenamento de arquivos e dados.
 - **AWS EC2**: Para execução de scripts de processamento de dados.
-- **AWS RDS**: Para configurar e gerenciar bancos de dados relacionais na nuvem.
-- **AWS Lambda**: Para execução de funções sem servidor, facilitando a automação e escalabilidade de tarefas.
 - **boto3**: Biblioteca Python para interagir com os serviços da AWS.
 - **pandas**: Biblioteca Python para manipulação de dados em formato tabular (CSV).
 - **polars**: Biblioteca alternativa ao `pandas`, utilizada para manipulação de dados de forma eficiente e com alto desempenho.
