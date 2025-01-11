@@ -1,6 +1,6 @@
 # Desafio AWS Cloud Quest - Aprendizado e Implementações
 
-Este repositório documenta os aprendizados adquiridos durante a participação no desafio prático **AWS Cloud Quest**. O objetivo principal deste desafio foi utilizar diversos serviços da AWS, como EC2, S3, RDS, Lambda, entre outros, para resolver problemas práticos de manipulação de dados, automação de tarefas e segurança na nuvem.
+Este repositório documenta os aprendizados adquiridos durante a participação no **Desafio** e no **AWS Cloud Quest**. O objetivo principal destes dois foi utilizar diversos serviços da AWS, como EC2, S3, RDS, Lambda, entre outros, para resolver problemas práticos de manipulação de dados, automação de tarefas e segurança na nuvem.
 
 ## Conceitos Básicos de Nuvem
 
@@ -114,5 +114,7 @@ Durante o desafio, além de trabalhar com os serviços da AWS diretamente, busqu
 - **Integração entre Serviços AWS**: Procurei entender mais sobre a integração de diferentes serviços da AWS (S3, EC2, Lambda, RDS) e como orquestrar fluxos de trabalho complexos para uma automação mais robusta e escalável.
 
 Esses conhecimentos complementares foram cruciais para o sucesso do projeto, pois permitiram que eu aplicasse as melhores práticas em todas as etapas do desenvolvimento e aproveitasse ao máximo as funcionalidades oferecidas pela AWS.
+
+algumas desses conhecimentos não foram exigidos diretamente no desafio, mas foram adquiridos com o objetivo de expandir minhas habilidades e estar preparado para futuros projetos e melhorias. Eles me permitem aplicar soluções mais robustas e escaláveis, caso surjam necessidades específicas no futuro.
 
 Este repositório reflete meu aprendizado e experiência com a AWS, podendo ser expandido conforme novas necessidades ou integrações com outros serviços da plataforma.
