@@ -61,8 +61,6 @@ Durante o desafio, foram trabalhados os seguintes objetivos:
 
 - **Uso do Amazon S3**: Criação e manipulação de buckets para armazenar e recuperar dados, com foco em integrar o S3 com scripts Python.
 - **Uso do Amazon EC2**: Implementação de instâncias EC2 para executar scripts de processamento de dados, interagir com o S3 e executar tarefas automatizadas.
-- **Uso do Amazon RDS**: Configuração de bancos de dados relacionais (como MySQL, PostgreSQL) em instâncias RDS para armazenamento e consulta de dados estruturados.
-- **Uso do AWS Lambda**: Automação de funções em resposta a eventos com o AWS Lambda, sem necessidade de provisionamento de servidores.
 - **Manipulação de Dados em CSV e JSON**: Processamento de dados utilizando as bibliotecas `pandas` e `polars` para leitura, manipulação e exportação de arquivos em formatos CSV e JSON.
 - **Integração de serviços**: Conectar o S3, EC2, RDS, Lambda e outras ferramentas AWS para realizar um fluxo de trabalho completo, desde o armazenamento até a manipulação e análise de dados.
 
@@ -93,14 +91,12 @@ Durante o desafio, aprendi:
 
 - **AWS S3**: Como criar buckets, carregar arquivos e realizar operações básicas de leitura e escrita com objetos no S3.
 - **AWS EC2**: Como configurar instâncias EC2 para executar scripts de processamento de dados e automatizar tarefas.
-- **AWS RDS**: Como configurar e interagir com bancos de dados relacionais na nuvem (MySQL, PostgreSQL), realizando operações de inserção e consulta de dados.
-- **AWS Lambda**: Como criar funções Lambda para automatizar tarefas sem a necessidade de provisionar servidores, respondendo a eventos como uploads de arquivos no S3.
 - **Python & AWS**: Como integrar o Python com a AWS utilizando `boto3` para interagir com o S3, EC2, RDS e Lambda.
 - **Manipulação de Dados**: Aprendi a manipular dados utilizando `pandas` para processar arquivos CSV e `polars` para trabalhar com grandes volumes de dados de maneira eficiente.
 
 ## Conclusão
 
-Este desafio me proporcionou uma visão abrangente sobre como utilizar os serviços da AWS para resolver problemas de negócios e otimizar processos. A experiência adquirida com **EC2**, **S3**, **RDS**, **Lambda** e **segurança na nuvem** é fundamental para desenvolver soluções baseadas em nuvem eficientes e escaláveis. Com esse conhecimento, estou capacitado a implementar soluções que ajudam as empresas a inovar, reduzir custos e aumentar sua agilidade no mercado.
+Este desafio me proporcionou uma visão abrangente sobre como utilizar os serviços da AWS para resolver problemas de negócios e otimizar processos. A experiência adquirida com **EC2**, **S3** e **segurança na nuvem** é fundamental para desenvolver soluções baseadas em nuvem eficientes e escaláveis. Com esse conhecimento, estou capacitado a implementar soluções que ajudam as empresas a inovar, reduzir custos e aumentar sua agilidade no mercado.
 
 Durante o desafio, além de trabalhar com os serviços da AWS diretamente, busquei conhecimentos de fontes externas para expandir minha compreensão e melhorar a implementação do projeto. Algumas das áreas em que me aprofundei foram:
 
