@@ -28,8 +28,8 @@ A AWS oferece uma série de serviços para atender diferentes necessidades empre
 - **Amazon S3**: Criação e manipulação de buckets para armazenamento e recuperação de dados. Integração com scripts Python para automação de tarefas de processamento de dados.
 - **Amazon EC2**: Execução de instâncias EC2 para rodar scripts de processamento de dados, interagir com o S3 e automatizar tarefas no ambiente de nuvem.
 - **Amazon RDS**: Configuração e gerenciamento de bancos de dados relacionais (MySQL, PostgreSQL) em instâncias RDS, permitindo armazenamento, consulta e manipulação de dados estruturados.
-- **AWS Lambda**: Automação de funções em resposta a eventos sem a necessidade de provisionar servidores. Ideal para automatizar tarefas como o processamento de dados e interações com o S3.
-- **Manipulação de Dados em CSV e JSON**: Processamento de dados utilizando as bibliotecas `pandas` e `polars` para leitura, manipulação e exportação de dados nos formatos CSV e JSON.
+
+- **Manipulação de Dados em CSV e JSON**: Processamento de dados utilizando as bibliotecas `pandas` ou `polars` para leitura, manipulação e exportação de dados nos formatos CSV e JSON.
 
 ### Segurança na Nuvem
 
