@@ -1,6 +1,6 @@
 # Desafio AWS Cloud Quest - Aprendizado e Implementações
 
-Este repositório documenta os aprendizados adquiridos durante a participação no **Desafio** e no **AWS Cloud Quest**. O objetivo principal destes dois foi utilizar diversos serviços da AWS, como EC2, S3, RDS, Lambda, entre outros, para resolver problemas práticos de manipulação de dados, automação de tarefas e segurança na nuvem.
+Este repositório documenta os aprendizados adquiridos durante a participação no **Desafio** e no **AWS Cloud Quest**. O objetivo principal destes dois foi utilizar diversos serviços da AWS, como EC2, S3, entre outros, para resolver problemas práticos de manipulação de dados, automação de tarefas e segurança na nuvem.
 
 ## Conceitos Básicos de Nuvem
 
@@ -27,8 +27,6 @@ A AWS oferece uma série de serviços para atender diferentes necessidades empre
 
 - **Amazon S3**: Criação e manipulação de buckets para armazenamento e recuperação de dados. Integração com scripts Python para automação de tarefas de processamento de dados.
 - **Amazon EC2**: Execução de instâncias EC2 para rodar scripts de processamento de dados, interagir com o S3 e automatizar tarefas no ambiente de nuvem.
-- **Amazon RDS**: Configuração e gerenciamento de bancos de dados relacionais (MySQL, PostgreSQL) em instâncias RDS, permitindo armazenamento, consulta e manipulação de dados estruturados.
-
 - **Manipulação de Dados em CSV e JSON**: Processamento de dados utilizando as bibliotecas `pandas` ou `polars` para leitura, manipulação e exportação de dados nos formatos CSV e JSON.
 
 ### Segurança na Nuvem
@@ -62,7 +60,7 @@ Durante o desafio, foram trabalhados os seguintes objetivos:
 - **Uso do Amazon S3**: Criação e manipulação de buckets para armazenar e recuperar dados, com foco em integrar o S3 com scripts Python.
 - **Uso do Amazon EC2**: Implementação de instâncias EC2 para executar scripts de processamento de dados, interagir com o S3 e executar tarefas automatizadas.
 - **Manipulação de Dados em CSV e JSON**: Processamento de dados utilizando as bibliotecas `pandas` e `polars` para leitura, manipulação e exportação de arquivos em formatos CSV e JSON.
-- **Integração de serviços**: Conectar o S3, EC2, RDS, Lambda e outras ferramentas AWS para realizar um fluxo de trabalho completo, desde o armazenamento até a manipulação e análise de dados.
+- **Integração de serviços**: Conectar o S3, EC2outras ferramentas AWS para realizar um fluxo de trabalho completo, desde o armazenamento até a manipulação e análise de dados.
 
 ## Ferramentas Utilizadas
 
@@ -80,8 +78,6 @@ A estrutura do projeto foi organizada da seguinte forma:
 
 - **Bucket S3**: O bucket utilizado no desafio foi chamado `desafio`, onde os arquivos de dados foram armazenados e manipulados.
 - **Pasta de Scripts**: Todos os scripts utilizados para processamento de dados estão localizados na pasta `Evidencias/Script`.
-- **Instância RDS**: A instância do banco de dados foi configurada para armazenar dados estruturados, realizando operações de leitura e escrita via scripts Python.
-- **Funções Lambda**: Funções Lambda foram criadas para realizar tarefas automatizadas como processamento de dados e interação com o S3 sem a necessidade de gerenciamento de servidores.
 
 ## O que foi aprendido
 
@@ -101,7 +97,7 @@ Durante o desafio, além de trabalhar com os serviços da AWS diretamente, busqu
 - **Melhores Práticas de Arquitetura na AWS**: Pesquisei sobre as melhores práticas para projetar arquiteturas seguras, escaláveis e eficientes na AWS, garantindo que a solução fosse otimizada e atendesse aos requisitos de desempenho e segurança.
 - **Segurança na Nuvem**: Investi em aprender mais sobre as práticas recomendadas de segurança na nuvem, incluindo criptografia de dados, gerenciamento de identidade e acesso (IAM), e como mitigar vulnerabilidades em ambientes de nuvem.
 
-- **Automação e Otimização de Custos**: Explorei técnicas de automação usando AWS Lambda e ferramentas de monitoramento de custos, como o AWS Cost Explorer, para garantir que os recursos estivessem sendo utilizados de forma eficiente e com o mínimo de desperdício financeiro.
+- **Automação e Otimização de Custos**: Explorei técnicas de automação "usando AWS Lambda" e ferramentas de monitoramento de custos, como o AWS Cost Explorer, para garantir que os recursos estivessem sendo utilizados de forma eficiente e com o mínimo de desperdício financeiro.
 
 - **Performance e Escalabilidade**: Aprofundei-me no uso de autoescalabilidade com EC2 e como otimizar a performance de aplicações e bancos de dados em larga escala, além de explorar diferentes tipos de instâncias e seu impacto no desempenho.
 
