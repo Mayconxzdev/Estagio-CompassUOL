@@ -94,4 +94,4 @@ docker run --rm -v /CAMINHO/LOCAL/DOS/ARQUIVOS:/app/data desafio6
 
 Abaixo está a evidência do envio bem-sucedido dos arquivos CSV para o S3
 
-![Envio com sucesso para o S3](../Evidencias/Desafio)
+![Envio com sucesso para o S3](../Evidencias)
