@@ -142,12 +142,8 @@ Criar um arquivo README.md contendo:
 
 # Evidências
 
-Ao executar o código do exercício sobre Amazon Athena, observei que as consultas SQL foram executadas com sucesso, conforme podemos ver na imagem a seguir:
-
-!Evidencia 1
+Ao executar o código do exercício sobre Amazon Athena, observei que as consultas SQL foram executadas com sucesso, conforme podemos ver na imagem dentro do [Exercicios](Exercicios)
 
 # Certificados
 
-Certificado do Curso Fundamentals of Analytics on AWS
-
-!Curso Fundamentals of Analytics on AWS
+[Certificado do Curso Fundamentals of Analytics on AWS](Certificados)
