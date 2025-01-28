@@ -89,3 +89,9 @@ CMD ["python", "upload_script.py"]
 docker build -t desafio6 .
 
 docker run --rm -v /CAMINHO/LOCAL/DOS/ARQUIVOS:/app/data desafio6
+
+### Envio bem-sucedido ao S3
+
+Abaixo está a evidência do envio bem-sucedido dos arquivos CSV para o S3
+
+![Envio com sucesso para o S3](Evidencias/Desafio)
