@@ -88,4 +88,4 @@ CMD ["python", "upload_script.py"]
 
 docker build -t desafio6 .
 
-docker run --rm -v C:\Users... desafio6
+docker run --rm -v /CAMINHO/LOCAL/DOS/ARQUIVOS:/app/data desafio6
