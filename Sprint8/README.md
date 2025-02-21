@@ -1,6 +1,6 @@
-# 📌 Relatório da Sprint 6
+# 📌 Relatório da Sprint 8
 
-Este arquivo contém um resumo das atividades realizadas durante a Sprint 6, incluindo aprendizado, desafios e exercícios executados.
+Este arquivo contém um resumo das atividades realizadas durante a Sprint 8, incluindo aprendizado, desafios e exercícios executados.
 
 ---
 
@@ -60,4 +60,4 @@ Este arquivo contém um resumo das atividades realizadas durante a Sprint 6, inc
 
 ---
 
-✅ **Sprint 6 concluída com sucesso!** 🚀
+✅ **Sprint 8 concluída com sucesso!** 🚀
