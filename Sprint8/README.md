@@ -28,7 +28,7 @@ Este arquivo contém um resumo das atividades realizadas durante a Sprint 6, inc
 - **Tecnologias Utilizadas:** AWS Glue, Apache Spark, AWS S3, AWS Athena.
 - **Código-Fonte:**
   - [Processamento CSV](Desafio/processar_csv_trusted.py)
-  - [Processamento JSON (TMDB)](Desafio/processar_json_trusted.py)
+  - [Processamento JSON (TMDB)](Desafio/processar_api_tmdb_trusted.py)
 - **Evidências:** [📁 Evidências](Evidencias/)
 
 ---
