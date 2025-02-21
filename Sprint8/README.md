@@ -1,42 +1,63 @@
-# Instruções
+# 📌 Relatório da Sprint 6
 
-Este arquivo será o relato da sua entrega. Neste arquivo você fará a organização geral ao longo da Sprint. Esperamos que haja, minimamente:
+Este arquivo contém um resumo das atividades realizadas durante a Sprint 6, incluindo aprendizado, desafios e exercícios executados.
 
-- Uma ou mais seções para descrever o que estiver aprendendo (resumo), de maneira estruturada.
+---
 
-- Breve conteúdo de cada pasta relacionada a sprint.
+## 📚 Resumo
 
-# Resumo
+### **🔹 AWS Glue e Apache Spark**
 
-**Git Hub:** Aprendi isso, isso e mais aquilo.
+- Aprendi a utilizar o **AWS Glue** para processar dados em um **Data Lake**.
+- Trabalhei com **Apache Spark** para transformar e limpar dados.
+- Entendi a importância do **Glue Data Catalog** para organização dos dados no **AWS Athena**.
 
-**Linux:** Pude entender como funciona isso e aquilo.
+### **🔹 Geração e Manipulação de Dados**
 
-# Exercícios
+- Desenvolvi scripts para gerar e manipular massas de dados.
+- Usei **Apache Spark** para processar e transformar dados em **DataFrames**.
+- Realizei consultas SQL no **Spark SQL** para análise dos dados.
 
+---
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+## 🚀 Desafios
 
+### **Desafio de Filmes e Séries - Etapa 3**
 
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
+- **Objetivo:** Processar dados da **RAW Zone** para a **Trusted Zone** utilizando **AWS Glue com Apache Spark**.
+- **Tecnologias Utilizadas:** AWS Glue, Apache Spark, AWS S3, AWS Athena.
+- **Código-Fonte:**
+  - [Processamento CSV](Desafio/processar_csv_trusted.py)
+  - [Processamento JSON (TMDB)](Desafio/processar_json_trusted.py)
+- **Evidências:** [📁 Evidências](Evidencias/)
 
+---
 
+## 📝 Exercícios
 
-# Evidências
+1. **Geração de Massa de Dados com Apache Spark**
+   - Desenvolvi um script para criar listas de inteiros e nomes aleatórios.
+   - \*\*[Código do Exercício](Exercicios/ApacheSpark/)
+2. **Manipulação de DataFrames com Apache Spark**
+   - Processamento de arquivos CSV e consultas SQL em Spark DataFrames.
+   - **[Código do Exercício](Exercicios/Geração_e_massa_de_dados/)**
 
+---
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+## 📸 Evidências
 
-![Evidencia 1](evidencias/sample.webp)
+### 🔹 Execução do Desafio
 
+![Evidência do Desafio](Evidencias/)
 
-# Certificados
+### 🔹 Resultados do Exercício 1
 
+![Evidência Exercício 1](evidencias/exercicio1_output.png)
 
-Certificado do Curso ABC
+### 🔹 Resultados do Exercício 2
 
-![Curso ABC](certificados/sample.png)
+![Evidência Exercício 2](Evidencias/Exercicio_Geração/)
 
+---
 
+✅ **Sprint 6 concluída com sucesso!** 🚀
