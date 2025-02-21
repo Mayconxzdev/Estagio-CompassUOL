@@ -162,7 +162,7 @@ df_join.show()
 
 ## 📌 Conclusão
 
-Este projeto automatiza a coleta de filmes do TMDB e organiza os dados no AWS S3, permitindo processamento posterior com Apache Spark. 🚀
+Esta sprint automatiza a coleta de filmes do TMDB e organiza os dados no AWS S3, permitindo processamento posterior com Apache Spark. 🚀
 
 ## 📌 Evidências
 
