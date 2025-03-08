@@ -1,0 +1,68 @@
+import sys
+from awsglue.transforms import *
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
+from pyspark.sql.functions import year, month, dayofmonth
+
+args = getResolvedOptions(sys.argv, ['JOB_NAME'])
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+job = Job(glueContext)
+job.init(args['JOB_NAME'], args)
+
+trusted_path = "s3://desafio-6/Trusted/TMDB/Parquet/Movies/2025/3/7/"
+
+movies_df = spark.read.parquet(trusted_path)
+
+fato_filmes = movies_df.selectExpr(
+    "id as movie_id",
+    "id as id_financeiro",
+    "id as id_popularidade",
+    "id as id_filme",
+    "id as id_tempo"
+)
+
+fato_filmes.write.mode("overwrite").format("parquet").save("s3://desafio-6/Refined/fato_filmes")
+
+dim_financeiro = movies_df.selectExpr(
+    "id as id_financeiro",
+    "budget",
+    "revenue",
+    "runtime"
+)
+
+dim_financeiro.write.mode("overwrite").format("parquet").save("s3://desafio-6/Refined/dim_financeiro")
+
+dim_popularidade = movies_df.selectExpr(
+    "id as id_popularidade",
+    "popularity",
+    "vote_average",
+    "vote_count"
+)
+
+dim_popularidade.write.mode("overwrite").format("parquet").save("s3://desafio-6/Refined/dim_popularidade")
+
+dim_filme = movies_df.selectExpr(
+    "id as id_filme",
+    "original_title",
+    "release_date",
+    "status",
+    "tagline",
+    "title"
+)
+
+dim_filme.write.mode("overwrite").format("parquet").save("s3://desafio-6/Refined/dim_filme")
+
+dim_tempo = movies_df.select(
+    movies_df["id"].alias("id_tempo"),
+    year(movies_df["release_date"]).alias("ano"),
+    month(movies_df["release_date"]).alias("mês"),
+    dayofmonth(movies_df["release_date"]).alias("dia")
+)
+
+dim_tempo.write.mode("overwrite").format("parquet").save("s3://desafio-6/Refined/dim_tempo")
+
+job.commit()
