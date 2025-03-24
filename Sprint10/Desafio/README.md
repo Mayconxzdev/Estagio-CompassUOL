@@ -8,6 +8,8 @@ O foco principal foi explorar o desempenho financeiro e a recepção do público
 
 ## Gráficos e Análise
 
+![alt text](../Evidencias/Grafico1.png)
+
 1.  **Gráfico 1: Variação do ROI entre os filmes de Bad Boys (Barras e Linha)**
 
     - Este gráfico de barras compara o Retorno sobre Investimento (ROI) dos três filmes da franquia.
@@ -18,6 +20,8 @@ O foco principal foi explorar o desempenho financeiro e a recepção do público
       - "Bad Boys for Life" tem um ROI intermediário (3.74), demonstrando um bom desempenho financeiro, mas não tão eficiente quanto o primeiro filme.
       - A linha conectando as barras mostra a tendência de queda no ROI ao longo da franquia.
 
+![alt text](../Evidencias/Grafico2.png)
+
 2.  **Gráfico 2: Comparação entre Orçamento, Receita e Lucro dos filmes de Bad Boys**
 
     - Este gráfico de barras lado a lado compara o orçamento, a receita e o lucro de cada filme da franquia.
@@ -26,6 +30,8 @@ O foco principal foi explorar o desempenho financeiro e a recepção do público
       - "Bad Boys for Life" teve a maior receita (426.51M) e o maior lucro (336.51M), indicando um grande sucesso comercial.
       - "Bad Boys" teve o menor orçamento (19M) e, apesar do menor lucro absoluto (122.41M), demonstra um alto ROI devido ao baixo investimento inicial.
       - "Bad Boys II" teve o maior orçamento (130M) e um lucro de 143.34M, mas o ROI foi o menor, mostrando que o alto investimento não garantiu um retorno tão eficiente.
+
+![alt text](../Evidencias/Grafico3.png)
 
 3.  **Gráfico 3: Relação entre Investimento Inicial, Retorno sobre Investimento (ROI) e Média de votos nos filmes de Bad Boys**
 
