@@ -41,7 +41,7 @@ O foco principal foi explorar o desempenho financeiro e a recepção do público
       - "Bad Boys" tem o menor investimento inicial e o maior ROI.
       - "Bad Boys II" tem o maior investimento inicial e o menor ROI.
       - "Bad Boys for Life" fica em uma posição intermediária em termos de investimento e ROI.
-      - O tamanho dos pontos pode representar a média de votos.
+      - O tamanho dos pontos representar a média de votos.
 
 ## Tecnologias Utilizadas
 
