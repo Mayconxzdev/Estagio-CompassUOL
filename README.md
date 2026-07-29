@@ -25,14 +25,9 @@ Ao longo de **10 sprints**, desenvolvi conhecimentos práticos em programação,
 
 ## Resultado de destaque
 
-Durante o programa, desenvolvi uma automação para tratamento e processamento de dados que reduziu o tempo de execução de aproximadamente **3 horas para 5 minutos**.
+Durante o programa, desenvolvi automações para tratamento e processamento de dados que reduziram significativamente etapas manuais e tempo de execução.
 
-Isso representa:
-
-* redução de aproximadamente **97% no tempo de processamento**;
-* execução cerca de **36 vezes mais rápida**;
-* eliminação de etapas manuais e repetitivas;
-* maior consistência e eficiência no processamento dos dados.
+Em uma das atividades, observei a redução aproximada de um processamento de **3 horas para 5 minutos**. Como este é um repositório histórico e o artefato exato ainda não foi isolado em uma pasta específica, apresento esse resultado como uma medição observada durante o programa, e não como um benchmark reproduzível de todo o repositório.
 
 ---
 
