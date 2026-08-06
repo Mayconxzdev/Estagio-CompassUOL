@@ -1,10 +1,10 @@
 # Programa de Bolsas Compass UOL — Engenharia de Dados
 
-Repositório histórico da minha participação no **Programa de Bolsas da Compass UOL**, realizado entre **outubro de 2024 e março de 2025**.
+Este repositório registra minha participação no **Programa de Bolsas da Compass UOL**, realizado entre **outubro de 2024 e março de 2025**.
 
-Ao longo de **10 sprints**, evoluí dos fundamentos de Git, Linux e SQL até a construção de um pipeline de dados em AWS com ingestão por arquivos e API, Data Lake em camadas, processamento distribuído, consultas analíticas e dashboard.
+Ao longo de **10 sprints**, avancei dos fundamentos de Git, Linux e SQL até a construção de um pipeline de dados em AWS com ingestão por arquivos e API, Data Lake em camadas, processamento distribuído, consultas analíticas e dashboard.
 
-> Este material deve ser avaliado como registro de formação prática e evolução técnica. Não representa um ambiente empresarial de produção nem um único produto comercial.
+> O conteúdo representa minha formação prática durante o programa. Não é um ambiente empresarial de produção nem um único produto comercial.
 
 ## Visão geral
 
@@ -17,9 +17,9 @@ Ao longo de **10 sprints**, evoluí dos fundamentos de Git, Linux e SQL até a c
 | Área | Engenharia de Dados |
 | Status | Concluído |
 
-## Pipeline desenvolvido
+## Pipeline que construí
 
-Nas sprints finais, construí um pipeline para análise de dados de filmes e séries:
+Nas sprints finais, desenvolvi um pipeline para análise de dados de filmes e séries:
 
 ```text
 Arquivos CSV + API TMDB
@@ -41,7 +41,7 @@ Amazon QuickSight
 
 O fluxo envolveu:
 
-1. ingestão de arquivos CSV em estrutura organizada no Amazon S3;
+1. ingestão de arquivos CSV em uma estrutura organizada no Amazon S3;
 2. consumo da API do TMDB com Python;
 3. execução da coleta em AWS Lambda e gravação via boto3;
 4. processamento de CSV e JSON com AWS Glue e PySpark;
@@ -66,7 +66,7 @@ O fluxo envolveu:
 | [Sprint 9](Sprint9) | Pipeline ETL, camada Refined e modelagem dimensional |
 | [Sprint 10](Sprint10) | Consultas com Athena e dashboard no QuickSight |
 
-## Tecnologias demonstradas
+## Tecnologias utilizadas
 
 ### Linguagens e dados
 
@@ -84,7 +84,7 @@ O fluxo envolveu:
 
 `Git` · `GitHub` · `Linux` · `Docker`
 
-## Evidências técnicas
+## Entregas preservadas no repositório
 
 - função Lambda para paginação e coleta de filmes na API TMDB;
 - gravação de JSON em caminhos organizados no S3;
@@ -93,23 +93,23 @@ O fluxo envolveu:
 - escrita em Parquet particionado por ano, mês e dia;
 - preparação das camadas Trusted e Refined;
 - consultas Athena e dashboard QuickSight;
-- código, anotações e capturas preservados por sprint.
+- código, anotações e capturas organizados por sprint.
 
-## O que este repositório comprova
+## O que aprendi e pratiquei
 
-- progressão prática em dados e cloud ao longo de dez entregas;
 - integração entre Python, APIs e serviços AWS;
-- construção de pipeline em diferentes camadas;
+- construção de pipelines em diferentes camadas;
 - processamento com Spark e formatos analíticos;
-- modelagem e comunicação de resultados em dashboard;
-- documentação da evolução técnica.
+- modelagem relacional e dimensional;
+- consultas analíticas e apresentação de resultados em dashboard;
+- documentação da evolução técnica ao longo de entregas sucessivas.
 
-## Limites
+## Estado e limites
 
 - o ambiente AWS utilizado durante o programa não permanece ativo;
-- o repositório preserva exercícios do período e não foi reescrito como produto de produção;
-- serviços estudados em cursos não são apresentados como experiência operacional avançada quando não aparecem no pipeline implementado;
-- não são declarados volume, SLA ou ganho de desempenho sem artefato reproduzível correspondente.
+- o repositório preserva os exercícios do período e não foi reescrito como produto de produção;
+- serviços apenas estudados não são apresentados como experiência operacional avançada;
+- não declaro volume, SLA ou ganho de desempenho sem um artefato reproduzível correspondente.
 
 ## Autor
 
