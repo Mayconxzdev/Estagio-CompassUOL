@@ -1,4 +1,19 @@
+<div align="center">
+
 # Programa de Bolsas Compass UOL — Engenharia de Dados
+
+**10 sprints de formação prática, dos fundamentos de Linux/SQL até um pipeline AWS com Data Lake, Glue/PySpark, Athena e QuickSight.**
+
+[![Validação](https://github.com/Mayconxzdev/Estagio-CompassUOL/actions/workflows/validate.yml/badge.svg)](https://github.com/Mayconxzdev/Estagio-CompassUOL/actions/workflows/validate.yml)
+![Python](https://img.shields.io/badge/Python-Data%20Engineering-3776AB?logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Data%20Lake-232F3E?logo=amazonwebservices&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-ETL-E25A1C?logo=apachespark&logoColor=white)
+
+[Case no portfólio](https://mayconxzdev.github.io/cases/compass/) · [Sprint 10](Sprint10) · [Dashboard final](Sprint10/Desafio/Dashboard.png)
+
+<img src="Sprint10/Desafio/Dashboard.png" alt="Dashboard final desenvolvido no QuickSight durante o Programa de Bolsas Compass UOL" width="100%">
+
+</div>
 
 Este repositório registra minha participação no **Programa de Bolsas da Compass UOL**, realizado entre **outubro de 2024 e março de 2025**.
 
