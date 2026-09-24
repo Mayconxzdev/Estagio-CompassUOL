@@ -4,15 +4,10 @@ import boto3
 import json
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 
-# Carregar credenciais da AWS de um arquivo JSON
-with open('aws_credenciais.json', 'r') as arquivo_credenciais:
-    credenciais = json.load(arquivo_credenciais)
+# Configure TMDB_API_KEY no ambiente; boto3 usa a cadeia padrão de credenciais AWS.
+import os
 
-chave_acesso_aws = credenciais['aws_access_key_id']
-chave_secreta_aws = credenciais['aws_secret_access_key']
-token_sessao_aws = credenciais.get('aws_session_token')  # Pode ser opcional
-
-chave_api = "b19482533361f027dec14391eb35d74d"
+chave_api = os.environ["TMDB_API_KEY"]
 
 url = f"https://api.themoviedb.org/3/movie/top_rated?api_key={chave_api}&language=pt-BR"
 
@@ -44,9 +39,6 @@ print(df_filmes)
 try:
     cliente_s3 = boto3.client(
         's3',
-        aws_access_key_id=chave_acesso_aws,
-        aws_secret_access_key=chave_secreta_aws,
-        aws_session_token=token_sessao_aws,
         region_name='us-east-1'  
     )
 

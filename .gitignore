@@ -1,1 +1,6 @@
 Sprint8/Exercicios/Geração_e_massa_de_dados/arquivos_criados/nomes_aleatorios.txt
+# Credenciais locais; nunca versionar.
+**/credenciais.json
+**/aws_credenciais.json
+**/token.txt
+**/__pycache__/
