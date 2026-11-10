@@ -9,7 +9,7 @@
 ![AWS](https://img.shields.io/badge/AWS-Data%20Lake-232F3E?logo=amazonwebservices&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-ETL-E25A1C?logo=apachespark&logoColor=white)
 
-[Case no portfólio](https://mayconxzdev.github.io/cases/compass/) · [Sprint 10](Sprint10) · [Dashboard final](Sprint10/Desafio/Dashboard.png)
+[Case no portfólio](https://mayconxzdev.github.io/projetos/engenharia-de-dados-compass/) · [Sprint 10](Sprint10) · [Dashboard final](Sprint10/Desafio/Dashboard.png)
 
 <img src="Sprint10/Desafio/Dashboard.png" alt="Dashboard final desenvolvido no QuickSight durante o Programa de Bolsas Compass UOL" width="100%">
 
